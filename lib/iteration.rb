@@ -8,15 +8,11 @@ array_1 = [
 outer_results = []
 row_index = 0
 while row_index < array_1.count do
-  element_index = 0
-  inner_results = "I love "
-  while element_index < array_1[row_index].count do
-    puts inner_results << array_1[row_index].join(' and ') 
-    element_index += 1
-  end
-  row_index += 1
+  inner_results = array_1[row_index]
+  outer_results << "I love #{inner[0]} and #{inner[1]} on my pizza"
+  inner_results += 1
 end
-end
+
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
