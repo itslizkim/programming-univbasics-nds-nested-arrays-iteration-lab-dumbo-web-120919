@@ -6,6 +6,7 @@ array_1 = [
 ]
 
 outer_results = []
+
 row_index = 0
 while row_index < array_1.count do
   inner_results = array_1[row_index]
