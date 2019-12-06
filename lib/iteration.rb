@@ -10,7 +10,7 @@ outer_results = []
 row_index = 0
 while row_index < array_1.count do
   inner_results = array_1[row_index]
-  outer_results << "I love #{inner[0]} and #{inner[1]} on my pizza"
+  outer_results << "I love #{inner_results[0]} and #{inner_results[1]} on my pizza"
   inner_results += 1
 end
 
