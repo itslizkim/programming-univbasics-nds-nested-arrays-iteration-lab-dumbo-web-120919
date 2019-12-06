@@ -11,8 +11,7 @@ while row_index < array_1.count do
   element_index = 0
   inner_results = "I love "
   while element_index < array_1[row_index].count do
-    puts inner_results << array_1[row_index].join(' and ') "on my pizza"
-    element_index += 1
+    puts inner_results << array_1[row_index].join(' and ') 
   end
   row_index += 1
 end
