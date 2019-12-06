@@ -12,6 +12,7 @@ while row_index < array_1.count do
   inner_results = "I love "
   while element_index < array_1[row_index].count do
     puts inner_results << array_1[row_index].join(' and ') 
+    element_index += 1
   end
   row_index += 1
 end
