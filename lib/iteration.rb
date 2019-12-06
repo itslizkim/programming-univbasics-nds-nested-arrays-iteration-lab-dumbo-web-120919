@@ -13,6 +13,7 @@ while row_index < array_1.count do
   outer_results << "I love #{inner[0]} and #{inner[1]} on my pizza"
   inner_results += 1
 end
+
 outer_results
 end
 
